@@ -1,5 +1,5 @@
 import pytest
-from modules.test_drone_comm_manager import DroneCommManager
+from modules.test_wifi_manager import DroneCommManager
 
 @pytest.fixture
 def drone_comm_manager():
@@ -32,7 +32,6 @@ def test_connection_status(comm_manager):
 
 if __name__ == "__main__":
     try:
-        from modules.drone_comm_manager import DroneCommManager
     except ModuleNotFoundError as e:
         print(f"Error al importar: {e}")
     else:
