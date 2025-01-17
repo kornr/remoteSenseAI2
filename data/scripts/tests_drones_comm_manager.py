@@ -1,11 +1,8 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from .test_drones_comm_manager import DroneCommManager
-
+import pytest
+from data.scripts.test_drones_comm_manager import DroneCommManager
 
 @pytest.fixture
-def test_drones_comm_manager():
+def drone_comm_manager():
     """Fixture para inicializar un DroneCommManager para pruebas."""
     return DroneCommManager(drone_id="drone_test", port=8080)
 
