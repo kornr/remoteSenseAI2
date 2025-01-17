@@ -1,5 +1,3 @@
-# Dronep2pwifi/test_drone_comm_manager.py
-
 import pytest
 from modules.drone_comm_manager import DroneCommManager
 
