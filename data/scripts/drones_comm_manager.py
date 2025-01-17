@@ -1,5 +1,5 @@
 import pytest
-from .test_wifi import WifiManafer
+from .test_wifi import WifiManager
 
 @pytest.fixture
 def drone_comm_manager():
