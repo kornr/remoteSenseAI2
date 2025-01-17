@@ -1,5 +1,5 @@
 import pytest
-from data.scripts.test_drones_comm_manager import DroneCommManager
+from .test_drones_comm_manager import DroneCommManager
 
 @pytest.fixture
 def drone_comm_manager():
