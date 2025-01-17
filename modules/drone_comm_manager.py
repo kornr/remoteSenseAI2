@@ -32,8 +32,8 @@ def test_connection_status(comm_manager):
 
 if __name__ == "__main__":
     try:
-        from modules.test_drone_comm_manager import DroneCommManager
+        from modules.drone_comm_manager import DroneCommManager
     except ModuleNotFoundError as e:
         print(f"Error al importar: {e}")
     else:
-        pytest.main()
+        pytest.test_main()
