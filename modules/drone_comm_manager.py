@@ -1,8 +1,8 @@
 import pytest
-from modules.drone_comm_manager import DroneCommManager
+from modules.test_drone_comm_manager import DroneCommManager
 
 @pytest.fixture
-def comm_manager():
+def drone_comm_manager():
     """Fixture para inicializar DroneCommManager."""
     return DroneCommManager()
 
