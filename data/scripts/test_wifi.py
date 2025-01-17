@@ -1,6 +1,6 @@
 # test_wifi.py
 import pytest
-from modules.wifi_manager import WifiManager
+from modules.test_wifi_manager import WifiManager
 
 @pytest.fixture
 def wifi_manager():
