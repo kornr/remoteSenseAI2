@@ -6,7 +6,7 @@ def comm_manager():
     """Fixture para inicializar DroneCommManager."""
     return DroneCommManager()
 
-def test_drone_comm_manager_initialization(comm_manager):
+def drone_comm_manager_initialization(comm_manager):
     # Prueba la inicialización de DroneCommManager
     assert comm_manager is not None
     assert isinstance(comm_manager, DroneCommManager)
