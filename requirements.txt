@@ -5,3 +5,4 @@ scipy==1.9.3
 pywifi==1.1.11
 dronekit==2.9.2
 pandas==1.5.3
+distutils==3.1
