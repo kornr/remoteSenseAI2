@@ -2,7 +2,7 @@ import sys
 import os
 import logging
 import time
-from modules.wifi_manager import WifiManager
+from modules.test_wifi_manager import WifiManager
 from modules.drone_comm_manager import DroneCommManager
 from modules.data_processor import DataProcessor
 from modules.power_manager import PowerManager
