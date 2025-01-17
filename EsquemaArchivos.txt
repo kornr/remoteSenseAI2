@@ -1,0 +1,76 @@
+proyecto/
+│
+├── control_drones/
+│   ├── drones.py
+│   ├── comandos.py
+│   ├── datos_reales.py
+│   └── comunicacion_inalambrica.py
+│
+├── geoespaciales/
+│   ├── captura.py
+│   ├── mediciones.py
+│   ├── almacenamiento.py
+│
+├── red_wifi/
+│   ├── distribucion.py
+│   ├── protocolos_red.py
+│   ├── ajuste_automatico.py
+│
+├── geolocalizacion/
+│   ├── gps.py
+│   ├── imu.py
+│   ├── redes.py
+│
+├── potencia_antena/
+│   ├── control_banda.py
+│   ├── amplificacion.py
+│   ├── ajuste_automatizado.py
+│
+├── dispositivos_moviles/
+│   ├── protocolos_red.py
+│   ├── conexiones.py
+│   ├── experiencia_interactiva.py
+│
+├── regulaciones_aeronauticas/
+│   ├── seguridad.py
+│   ├── monitoreo.py
+│   ├── ajuste_altitud.py
+│
+├── aplicaciones_potenciales/
+│   ├── acceso_internet.py
+│   ├── comunicacion_desastres.py
+│   ├── mejora_comunicacion.py
+│
+├── desafios_tecnicos/
+│   ├── gestion_energia.py
+│   ├── optimizacion_consumo.py
+│   ├── algoritmos_procesamiento.py
+│
+└── soluciones_propuestas/
+    ├── optimizacion_energetica.py
+    ├── algoritmos_procesamiento.py
+
+project/
+├── main.py                        # Punto de entrada principal
+├── requirements.txt               # Lista de dependencias del proyecto
+├── config/                        # Configuración general del sistema
+│   └── settings.py                # Configuración de Wi-Fi, drones, y parámetros globales
+├── modules/                       # Módulos principales del sistema
+│   ├── wifi_manager.py            # Gestión del punto de acceso Wi-Fi
+│   ├── drone_controller.py        # Control y comunicación con los drones
+│   ├── data_processor.py          # Procesamiento de datos recopilados por drones
+│   └── utils/                     # Herramientas y utilidades generales
+│       ├── power_manager.py       # Verificación y gestión de energía
+│       ├── logger.py              # Configuración de logging (opcional)
+│       └── file_manager.py        # Gestión de archivos (guardar/cargar datos)
+├── data/                          # Almacenamiento de datos generados
+│   ├── raw/                       # Datos crudos recopilados por los drones
+│   ├── processed/                 # Datos procesados y listos para transmitir
+│   └── logs/                      # Archivos de registro del sistema
+├── scripts/                       # Scripts auxiliares para pruebas y configuración
+│   ├── test_wifi.py               # Pruebas de conectividad Wi-Fi
+│   ├── test_drones.py             # Pruebas de comunicación con drones
+│   └── test_data_processing.py    # Pruebas de procesamiento de datos
+└── docs/                          # Documentación del proyecto
+    ├── README.md                  # Introducción y explicación del proyecto
+    └── API_REFERENCE.md           # Referencia para la API de los módulos
