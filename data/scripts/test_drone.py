@@ -1,4 +1,5 @@
 import logging
+from modules.drone_comm_manager import DroneCommManager
 
 # Configuración global de logging
 logging.basicConfig(level=logging.INFO)
