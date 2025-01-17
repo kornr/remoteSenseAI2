@@ -1,7 +1,7 @@
 # Dronep2pwifi/test_drone_comm_manager.py
 
 import pytest
-from modules.drones_comm_manager import DroneCommManager
+from modules.drone_comm_manager import DroneCommManager
 
 @pytest.fixture
 def comm_manager():
