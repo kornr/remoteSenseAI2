@@ -1,5 +1,5 @@
 import pytest
-from .test_wifi import WifiManager
+from modules.drone_comm_manager import DroneCommManager  # Asegúrate de importar correctamente la clase
 
 @pytest.fixture
 def drone_comm_manager():
@@ -31,7 +31,7 @@ def test_peer_monitoring(drone_comm_manager, caplog):
     drone_comm_manager.connect_to_nearby_drones(nearby_drones)
 
     with caplog.at_level("INFO"):
-        drone_comm_manager.monitor_connections()
+        drone_comm_manager.monitor_connections()  # Asegúrate de que el método esté definido
         assert any(
             "Monitoreando conexión con" in record.message for record in caplog.records
         )
