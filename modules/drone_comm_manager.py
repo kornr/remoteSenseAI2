@@ -30,4 +30,4 @@ def test_connection_status(drone_comm_manager):
     assert drone_comm_manager.is_connected() is False
 
 if __name__ == "__main__":
-    pytest.test_main()
+    pytest.main()  # Correcto, para ejecutar las pruebas
